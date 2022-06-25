@@ -10,9 +10,9 @@ class EmailService {
       case 'test':
         this.link = 'http://localhost:5000';
         break;
-      // case 'production':
-      //   this.link = 'https://herokuapp.com';
-      //   break;
+      case 'production':
+        this.link = 'https://milestep-test-api.herokuapp.com';
+        break;
       default:
         this.link = 'http://localhost:3000';
     }
