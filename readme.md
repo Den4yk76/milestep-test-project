@@ -12,8 +12,8 @@ Routes:
 
         
         /api/tasks
-            /                 (Post) - add task
-            /:id              (Patch) - update task
+            /                 (POST) - add task
+            /:id              (PATCH) - update task
             /:id/markIsDone   (GET) - mark task as done
             /:id/unmarkIsDone (GET) - unmark task as done
             /:id              (DELETE) - delete task
