@@ -4,11 +4,11 @@ Routes:
 
 
         /api/users
-            /signup (POST) - registration
-            /login (POST) - login
-            /logout (POST) - logout
+            /signup                    (POST) - registration
+            /login                     (POST) - login
+            /logout                    (POST) - logout
             /verify/:confirmationToken (GET) - email confirmation
-            /verify (POST) - resend verification email
+            /verify                    (POST) - resend verification email
 
         
         /api/tasks
